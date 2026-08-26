@@ -56,20 +56,22 @@
         </div>
         <div class="contact-formArea">
           <form id="contact-form">
-            <label for="">First Name</label>
-            <input type="text" name="firstName" required maxlength="40">
-            <label for="">Last Name</label>
-            <input type="text" name="lastName" required maxlength="40">
-            <label for="">Email Address</label>
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" required maxlength="40">
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" required maxlength="40">
+            <label for="emailAddress">Email Address</label>
             <input
               type="email"
               name="emailAddress"
+              id="emailAddress"
               required
               maxlength="50"
               placeholder="name@example.com">
-            <label for="">Message</label>
+            <label for="message">Message</label>
             <textarea
               name="message"
+              id="message"
               required
               maxlength="255"
               form="contact-form"
