@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrueBlue Pools - Professional Pool Cleaning & Maintenance</title>
+
+    <!-- Imported Google Font: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap"
+      rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="contact-page">
+    <header class="header">
+      <div class="nav-container">
+        <div class="logo"><i class="fa-solid fa-water"></i> TrueBlue Pools</div>
+
+        <input type="checkbox" id="burger-toggle" class="burger-toggle">
+        <label for="burger-toggle" class="burger-label">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <nav class="nav-menu">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="contact-hero">
+        <picture class="contact-bgpicture"></picture>
+        <div class="contact-picture-mask"></div>
+        <div class="contact-left">
+          <div class="contact-title">Get in touch with us!</div>
+        </div>
+      </section>
+      <section class="contact-panels">
+        <div class="contact-details">
+          <span>Trueblue Pools</span>
+          <span>123 Main Street</span>
+          <span>Springfield, IL 62701</span>
+          <span>(555) 019-2834</span>
+          <span>contact@truebluepools.com</span>
+        </div>
+        <div class="contact-formArea">
+          <form id="contact-form">
+            <label for="">First Name</label>
+            <input type="text" name="firstName" required maxlength="40">
+            <label for="">Last Name</label>
+            <input type="text" name="lastName" required maxlength="40">
+            <label for="">Email Address</label>
+            <input
+              type="email"
+              name="emailAddress"
+              required
+              maxlength="50"
+              placeholder="name@example.com">
+            <label for="">Message</label>
+            <textarea
+              name="message"
+              required
+              maxlength="255"
+              form="contact-form"
+              placeholder="Your message"></textarea>
+          </form>
+          <button type="submit" class="contact-form-button">Send</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Copyright &copy; TrueBlue Pools 2026. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
