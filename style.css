@@ -422,7 +422,7 @@ body {
 .contact-page .contact-panels {
   display: flex;
   gap: 20px;
-  padding: 0 100px;
+  padding: 0;
 }
 .contact-page .contact-details {
   display: flex;
@@ -431,10 +431,13 @@ body {
   max-width: 800px;
   flex: 1;
 }
+.contact-page .contact-panels .contact-details > span > i {
+  margin-right: 5px;
+}
 .contact-page .contact-formArea {
   display: flex;
   flex-direction: column;
-  max-width: 800px;
+  max-width: 400px;
   gap: 20px;
   flex: 1;
 }
