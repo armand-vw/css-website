@@ -1,119 +1,152 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TrueBlue Pools - Professional Pool Cleaning & Maintenance</title>
-  
-  <!-- Imported Google Font: Roboto -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
-  
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body class="home-page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrueBlue Pools - Professional Pool Cleaning & Maintenance</title>
 
-  <header class="header">
-    <div class="nav-container">
-      <div class="logo">
-        <i class="fa-solid fa-water"></i> TrueBlue Pools
+    <!-- Imported Google Font: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="home-page">
+    <header class="header">
+      <div class="nav-container">
+        <div class="logo"><i class="fa-solid fa-water"></i> TrueBlue Pools</div>
+
+        <input type="checkbox" id="burger-toggle" class="burger-toggle" />
+        <label for="burger-toggle" class="burger-label">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <nav class="nav-menu">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="html/about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
       </div>
+    </header>
 
-      <input type="checkbox" id="burger-toggle" class="burger-toggle">
-      <label for="burger-toggle" class="burger-label">
-        <i class="fa-solid fa-bars"></i>
-      </label>
-
-      <nav class="nav-menu">
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero-section">
-      <div class="hero-container">
-        <div class="hero-left">
-          <h1 class="hero-title">Sparkling Clean Pools All Year Round</h1>
-          <p class="hero-subtitle">TrueBlue Pools offers top-tier cleaning, chemical balancing, and weekly pool maintenance for residential and commercial pools.</p>
-          <a href="contact.html" class="btn-primary">Sign up</a>
-        </div>
-        <div class="hero-right">
-          <picture>
-            <source media="(max-width: 576px)" srcset="Logo.jpg">
-            <source media="(max-width: 768px)" srcset="Logo.jpg">
-            <img src="Logo.jpg" alt="TrueBlue Pools Logo" class="hero-image-placeholder">
-          </picture>
-        </div>
-      </div>
-    </section>
-
-    <section class="info-section">
-      <h2 class="info-header">Our Pool Maintenance Services</h2>
-      <div class="info-cards-container">
-        
-        <div class="info-card">
-          <div class="card-img-wrapper">
-            <img src="Pool Chemicals.jpg" alt="Pool chemical water testing and balancing">
+    <main>
+      <section class="hero-section">
+        <div class="hero-container">
+          <div class="hero-left">
+            <h1 class="hero-title">Sparkling Clean Pools All Year Round</h1>
+            <p class="hero-subtitle">
+              TrueBlue Pools offers top-tier cleaning, chemical balancing, and
+              weekly pool maintenance for residential and commercial pools.
+            </p>
+            <a href="contact.html" class="btn-primary">Sign up</a>
           </div>
-          <p class="card-text">Comprehensive pH, chlorine, and chemical balancing for healthy water.</p>
-        </div>
-
-        <div class="info-card">
-          <div class="card-img-wrapper">
-            <img src="Pool Vacuum.jpg" alt="Pool vacuuming and skimming">
+          <div class="hero-right">
+            <picture>
+              <source media="(max-width: 576px)" srcset="Logo.jpg" />
+              <source media="(max-width: 768px)" srcset="Logo.jpg" />
+              <img
+                src="Logo.jpg"
+                alt="TrueBlue Pools Logo"
+                class="hero-image-placeholder"
+              />
+            </picture>
           </div>
-          <p class="card-text">Thorough vacuuming, wall brushing, and surface skimming every visit.</p>
         </div>
+      </section>
 
-        <div class="info-card">
-          <div class="card-img-wrapper">
-            <img src="Pool Pump.jpg" alt="Pool pump and filtration equipment servicing">
+      <section class="info-section">
+        <h2 class="info-header">Our Pool Maintenance Services</h2>
+        <div class="info-cards-container">
+          <div class="info-card">
+            <div class="card-img-wrapper">
+              <img
+                src="Pool Chemicals.jpg"
+                alt="Pool chemical water testing and balancing"
+              />
+            </div>
+            <p class="card-text">
+              Comprehensive pH, chlorine, and chemical balancing for healthy
+              water.
+            </p>
           </div>
-          <p class="card-text">Routine inspection and backwashing of pumps, filters, and equipment.</p>
-        </div>
 
-        <div class="info-card">
-          <div class="card-img-wrapper">
-            <img src="Seasonal pool cleaning.jpg" alt="Seasonal pool opening and green pool recovery">
+          <div class="info-card">
+            <div class="card-img-wrapper">
+              <img src="Pool Vacuum.jpg" alt="Pool vacuuming and skimming" />
+            </div>
+            <p class="card-text">
+              Thorough vacuuming, wall brushing, and surface skimming every
+              visit.
+            </p>
           </div>
-          <p class="card-text">Green-to-clean pool restorations and seasonal openings or closings.</p>
+
+          <div class="info-card">
+            <div class="card-img-wrapper">
+              <img
+                src="Pool Pump.jpg"
+                alt="Pool pump and filtration equipment servicing"
+              />
+            </div>
+            <p class="card-text">
+              Routine inspection and backwashing of pumps, filters, and
+              equipment.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <div class="card-img-wrapper">
+              <img
+                src="Seasonal pool cleaning.jpg"
+                alt="Seasonal pool opening and green pool recovery"
+              />
+            </div>
+            <p class="card-text">
+              Green-to-clean pool restorations and seasonal openings or
+              closings.
+            </p>
+          </div>
         </div>
+      </section>
 
-      </div>
-    </section>
-
-    <section class="quote-section">
-      <div class="quote-container">
-        <blockquote class="quote-text">
-          "TrueBlue Pools completely transformed our green pool into crystal-clear water in less than 24 hours. Their weekly service gives our family complete peace of mind!"
-        </blockquote>
-        <p class="quote-author">- Sarah Jenkins, Homeowner</p>
-      </div>
-    </section>
-
-    <section class="cta-section">
-      <div class="cta-box">
-        <div class="cta-text">
-          <h3 class="cta-title">Call to action! It's time!</h3>
-          <p class="cta-subtitle">Sign up for our monthly maintenance package today and get your first inspection free!</p>
+      <section class="quote-section">
+        <div class="quote-container">
+          <blockquote class="quote-text">
+            "TrueBlue Pools completely transformed our green pool into
+            crystal-clear water in less than 24 hours. Their weekly service
+            gives our family complete peace of mind!"
+          </blockquote>
+          <p class="quote-author">- Sarah Jenkins, Homeowner</p>
         </div>
-        <a href="contact.html" class="btn-primary btn-cta">Sign up</a>
-      </div>
-    </section>
-  </main>
+      </section>
 
-  <footer class="footer">
-    <p>Copyright &copy; TrueBlue Pools 2026. All rights reserved.</p>
-  </footer>
+      <section class="cta-section">
+        <div class="cta-box">
+          <div class="cta-text">
+            <h3 class="cta-title">Call to action! It's time!</h3>
+            <p class="cta-subtitle">
+              Sign up for our monthly maintenance package today and get your
+              first inspection free!
+            </p>
+          </div>
+          <a href="contact.html" class="btn-primary btn-cta">Sign up</a>
+        </div>
+      </section>
+    </main>
 
-</body>
+    <footer class="footer">
+      <p>Copyright &copy; TrueBlue Pools 2026. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
