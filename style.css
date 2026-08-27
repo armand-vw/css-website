@@ -460,6 +460,16 @@ body {
   width: 160px;
   padding: 10px 20px;
   cursor: pointer;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  border: 2px solid #3882f6;
+  transition: background-color 0.3s ease;
+}
+.contact-page .contact-form-button:hover {
+  background-color: #2563eb;
 }
 .contact-page .footer {
   margin: 0;
