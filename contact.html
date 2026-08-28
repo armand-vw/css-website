@@ -1,31 +1,27 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TrueBlue Pools - Professional Pool Cleaning & Maintenance</title>
 
     <!-- Imported Google Font: Roboto -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap"
+      rel="stylesheet">
 
     <!-- Font Awesome Icons -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body class="contact-page">
     <header class="header">
       <div class="nav-container">
         <div class="logo"><i class="fa-solid fa-water"></i> TrueBlue Pools</div>
-
-        <input type="checkbox" id="burger-toggle" class="burger-toggle" />
+        <input type="checkbox" id="burger-toggle" class="burger-toggle">
         <label for="burger-toggle" class="burger-label">
           <i class="fa-solid fa-bars"></i>
         </label>
@@ -48,6 +44,12 @@
           <div class="contact-title">Get in touch with us!</div>
         </div>
       </section>
+      <section class="contact-information">
+        <div class="contact-signup">
+            <span>Sign up to our Professional Pool Care Services and get the first
+              inspection for free!</span>
+        </div>
+      </section>
       <section class="contact-panels">
         <div class="contact-details">
           <span><i class="fa-solid fa-water"></i>TrueBlue Pools</span>
@@ -64,25 +66,28 @@
               name="firstName"
               id="firstName"
               required
-              maxlength="40"
-            />
+              maxlength="40">
             <label for="lastName">Last Name</label>
             <input
               type="text"
               name="lastName"
               id="lastName"
               required
-              maxlength="40"
-            />
+              maxlength="40">
             <label for="emailAddress">Email Address</label>
             <input
               type="email"
               name="emailAddress"
               id="emailAddress"
               required
-              maxlength="50"
-              placeholder="name@example.com"
-            />
+              maxlength="50">
+            <label for="phoneNumber">Phone Number</label>
+            <input
+              type="tel"
+              name="phoneNumber"
+              id="phoneNumber"
+              maxlength="20"
+              placeholder="Recommended for sign up!">
             <label for="message">Message</label>
             <textarea
               name="message"
@@ -90,8 +95,15 @@
               required
               maxlength="255"
               form="contact-form"
-              placeholder="Your message"
             ></textarea>
+            <div class="contact-form-checkbox">
+              <label for="isSignup">I wish to sign up to pool maintenance services</label>
+              <input
+                type="checkbox"
+                name="isSignup"
+                id="isSignup"
+                maxlength="255">
+            </div>
           </form>
           <button type="submit" class="contact-form-button">Send</button>
         </div>

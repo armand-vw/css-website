@@ -13,6 +13,10 @@ body {
 .header {
   background-color: #1f2937;
   color: #f9faf8;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  z-index: 10;
 }
 
 .nav-container {
@@ -21,7 +25,7 @@ body {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 2rem;  
   position: relative;
 }
 
@@ -373,6 +377,9 @@ body {
   font-size: 0.95rem;
   font-family: "Roboto", sans-serif;
 }
+main {
+  padding-top: 80px;
+}
 
 .contact-page main {
   display: flex;
@@ -380,7 +387,7 @@ body {
   gap: 100px;
   background-color: #1e293b;
   color: white;
-  padding: 100px 20vw;
+  padding: 100px 15vw;
   font-family: "Roboto", sans-serif;
 }
 
@@ -419,6 +426,17 @@ body {
   font-size: 34px;
   font-weight: 600;
 }
+
+.contact-page .contact-signup {
+  display: block;
+  position: relative;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+  padding: 50px;
+  font-size: 22px;
+  align-self: flex-start;
+}
 .contact-page .contact-panels {
   display: flex;
   gap: 20px;
@@ -456,6 +474,15 @@ body {
   padding: 10px;
   height: 100px;
 }
+
+.contact-page #contact-form .contact-form-checkbox {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0;
+}
 .contact-page .contact-form-button {
   width: 160px;
   padding: 10px 20px;
@@ -476,6 +503,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .contact-page main {
+    padding: 100px 7vw;
+  }
   .contact-page .contact-section {
     gap: 40px;
     background-color: #1e293b;
@@ -485,24 +515,30 @@ body {
   }
   .contact-page .contact-picture-mask {
     background: linear-gradient(
-      90deg,
-      hsla(215, 28%, 17%) 30%,
-      hsla(215, 28%, 17%, 0.897) 43%,
-      hsla(215, 28%, 17%, 0.6) 80%,
-      hsla(0, 15%, 5%, 0.145) 97%
+      180deg,
+      hsla(215, 28%, 17%) 20%,
+      hsla(215, 28%, 17%, 0.737) 33%,
+      hsla(215, 28%, 17%, 0.85) 45%,
+      hsla(215, 28%, 17%, 0.737) 63%,
+      hsla(215, 28%, 17%) 80%
     );
   }
   .contact-page .contact-bgpicture {
     background-position: 45%;
   }
 
-  .contact-page .contact-left {
-    padding: 20px;
-    max-width: 100px;
-  }
   .contact-page .contact-title {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 24px;
+    margin: 0 auto;
+  }
+
+  .contact-page .contact-signup {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
   }
 
   .contact-page .contact-panels {
