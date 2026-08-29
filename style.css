@@ -25,7 +25,7 @@ body {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1.5rem 2rem;  
+  padding: 1.5rem 2rem;
   position: relative;
 }
 
@@ -376,6 +376,37 @@ body {
   line-height: 1.6;
   font-size: 0.95rem;
   font-family: "Roboto", sans-serif;
+}
+
+.services-page-body main .cta-section {
+  max-width: 1200px;
+  margin: 6rem auto;
+  padding: 0 2rem;
+}
+
+.services-page-body main .cta-box {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 12px;
+  padding: 3rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services-page-body main .cta-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.services-page-body main .cta-subtitle {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.services-page-body main .btn-cta {
+  border: 2px solid #f9faf8;
 }
 main {
   padding-top: 80px;
