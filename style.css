@@ -276,6 +276,13 @@ body {
     padding: 2rem;
   }
 
+
+  .services-page-body main .cta-box  {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    padding: 2rem !important;
+  }
   .home-page .quote-text {
     font-size: 24px;
   }
