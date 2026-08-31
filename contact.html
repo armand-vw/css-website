@@ -16,7 +16,7 @@
   <body class="contact-page">
     <header class="header">
       <div class="nav-container">
-        <div class="logo"><i class="fa-solid fa-water"></i> TrueBlue Pools</div>
+        <a href="index.html" class="logo"><i class="fa-solid fa-water"></i> TrueBlue Pools</a>
         <input type="checkbox" id="burger-toggle" class="burger-toggle">
         <label for="burger-toggle" class="burger-label">
           <i class="fa-solid fa-bars"></i>
@@ -36,8 +36,7 @@
         <picture class="contact-bgpicture"></picture>
         <div class="contact-picture-mask"></div>
         <div class="contact-left">
-          <div class="contact-title">Get in touch with us!</div>
-        </div>
+          <h2 class="contact-title">Get in touch with us!</h2>
       </section>
       <section class="contact-information">
         <div class="contact-signup">
@@ -46,13 +45,13 @@
         </div>
       </section>
       <section class="contact-panels">
-        <div class="contact-details">
+        <address class="contact-details">
           <span><i class="fa-solid fa-water"></i>TrueBlue Pools</span>
           <span>123 Main Street</span>
           <span>Springfield, IL 62701</span>
           <span>(555) 019-2834</span>
           <span>contact@truebluepools.com</span>
-        </div>
+        </address>
         <div class="contact-formArea">
           <form id="contact-form">
             <label for="firstName">First Name</label>
@@ -89,16 +88,16 @@
               id="message"
               required
               maxlength="255"
-              form="contact-form"
-            ></textarea>
-            <div class="contact-form-checkbox">
+              form="contact-form">
+            </textarea>
+            <p class="contact-form-checkbox">
               <label for="isSignup">I wish to sign up to pool maintenance services</label>
               <input
                 type="checkbox"
                 name="isSignup"
                 id="isSignup"
                 maxlength="255">
-            </div>
+            </p>
           </form>
           <button type="submit" class="contact-form-button">Send</button>
         </div>
